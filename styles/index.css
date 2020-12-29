@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.content h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text1{
+    color: green;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.text2{
+    color: green;
+    margin-top: 20px;
+  
+}
+.text3{
+    color: red;
+    margin-top: 20px;
+}
+.first1{
+    color: red;
+}
+.first2{
+    color: blue;
+}
+.third h2{
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.text p:hover{
+    cursor: pointer;
+    font-style: italic;
+}
