@@ -1,0 +1,25 @@
+a:nth-child(3), a:nth-child(4){
+    color: green;
+}
+a:nth-child(5){
+    color: red;
+}
+#second-div p:nth-child(4), p:nth-child(6){
+    color:red
+}
+#second-div p:nth-child(5){
+    color: blue;
+}
+#first-div p:after{
+    content: "NEW";
+    color: yellow;
+}
+#second-div p:after{
+    content: none
+}
+body p:last-child:hover{
+    font-style: italic;
+}
+#first-div p:last-child:hover{
+    font-style: normal;
+}
